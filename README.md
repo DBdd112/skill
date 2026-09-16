@@ -3942,3 +3942,30 @@ python server.py            # http://localhost:5000
 - [course-video-manager](https://github.com/mattpocock/course-video-manager)
 
 <!-- AUTO-SYNC-SKILLS-END -->
+
+<!-- clawhub-sync-start -->
+## ClawHub (Skill Registry)
+
+Latest commit: `a0cfdeb`
+
+### Packages
+
+| Package | Description |
+| ------- | ----------- |
+| `clawhub-admin` | clawhub-admin package |
+| `clawhub` | CLI tool for managing skills |
+| `schema` | Shared API types and routes |
+
+### CLI Commands
+
+## CLI
+
+Common CLI flows:
+
+- Auth: `clawhub login`, `clawhub whoami`
+- Remote/headless auth: `clawhub login --device`
+- Discover: `clawhub search ...`, `clawhub explore`
+- Browse unified catalog (skills + plugins): `clawhub package explore`, `clawhub package inspect <name>`
+- Manage local installs: `clawhub install @openclaw/demo`, `clawhub pin <skill>`, `clawhub unpin <skill>`, `clawhub uninstall <skill>`, `clawhub list`, `clawhub update --all`
+- Inspect without installing: `clawhub inspect @op
+<!-- clawhub-sync-end -->
