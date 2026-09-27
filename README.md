@@ -4571,7 +4571,7 @@ python server.py            # http://localhost:5000
 <!-- clawhub-sync-start -->
 ## ClawHub (Skill Registry)
 
-Latest commit: `337e7b4`
+Latest commit: `21dc829`
 
 ### Packages
 
@@ -4583,14 +4583,14 @@ Latest commit: `337e7b4`
 
 ### CLI Commands
 
-## CLI
 
-Common CLI flows:
+| Command | Description |
+| ------- | ----------- |
+| `claw login` | Authenticate with GitHub |
+| `claw search <query>` | Search skills |
+| `claw explore` | Browse skill registry |
+| `claw install <slug>` | Install a skill |
+| `claw list` | List installed skills |
+| `claw publish <path>` | Publish a new skill |
 
-- Auth: `clawhub login`, `clawhub whoami`
-- Remote/headless auth: `clawhub login --device`
-- Discover: `clawhub search ...`, `clawhub explore`
-- Browse unified catalog (skills + plugins): `clawhub package explore`, `clawhub package inspect <name>`
-- Manage local installs: `clawhub install @openclaw/demo`, `clawhub pin <skill>`, `clawhub unpin <skill>`, `clawhub uninstall <skill>`, `clawhub list`, `clawhub update --all`
-- Inspect without installing: `clawhub inspect @op
 <!-- clawhub-sync-end -->
