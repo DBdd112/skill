@@ -9603,7 +9603,7 @@ python server.py            # http://localhost:5000
 <!-- clawhub-sync-start -->
 ## ClawHub (Skill Registry)
 
-Latest commit: `560125d`
+Latest commit: `547b484`
 
 ### Packages
 
