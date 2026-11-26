@@ -13271,15 +13271,11 @@ python server.py            # http://localhost:5000
 <!-- clawhub-sync-start -->
 ## ClawHub (Skill Registry)
 
-Latest commit: `c6f8ef3`
+Latest commit: `eb673fe`
 
 ### Packages
 
-| Package | Description |
-| ------- | ----------- |
-| `clawhub-admin` | clawhub-admin package |
-| `clawhub` | CLI tool for managing skills |
-| `schema` | Shared API types and routes |
+No packages found.
 
 ### CLI Commands
 
